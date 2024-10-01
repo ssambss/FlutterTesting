@@ -1,16 +1,11 @@
-# first_app
+# Test app
 
-A new Flutter project.
+A new Flutter project for learning Flutter and Dart.
 
-## Getting Started
+Currently it just displays centered text and a gradient color background.
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/user-attachments/assets/4530a66d-30b6-4c75-aa62-3b443356ac38)
 
-A few resources to get you started if this is your first Flutter project:
+What it will do is TBD :D
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
