@@ -1,10 +1,12 @@
 # Test app
 
-A new Flutter project for learning Flutter and Dart.
+- A Flutter project for learning Flutter and Dart.
 
-Currently it just displays centered text and a gradient color background. What it will do is TBD :D
+## Features
 
-![image](https://github.com/user-attachments/assets/4530a66d-30b6-4c75-aa62-3b443356ac38)
+- You can click a button to display randomized images of Golden Retriever puppies!
+
+[![Image from Gyazo](https://i.gyazo.com/0063a0dd5b7a5a1a9085b9e132ecb275.gif)](https://gyazo.com/0063a0dd5b7a5a1a9085b9e132ecb275)
 
 
 
