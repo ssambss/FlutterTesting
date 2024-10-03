@@ -1,20 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/styled_text.dart';
+import 'package:first_app/image_roller.dart';
+
+const startAlignment = Alignment.topRight;
 
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key});
+  const GradientContainer(this.color1, this.color2, {super.key});
+
+  final Color color1;
+  final Color color2;
 
   @override
   Widget build(context) {
     return Container(
-      decoration: const BoxDecoration(
-        gradient: SweepGradient(center: Alignment.topRight, colors: [
-          Color.fromARGB(255, 0, 0, 0),
-          Color.fromRGBO(165, 0, 180, 0.493)
+      decoration: BoxDecoration(
+        gradient: SweepGradient(center: startAlignment, colors: [
+          color1,
+          color2,
         ]),
       ),
       child: const Center(
-        child: StyledText()
+        child: ImageRoller(),
       ),
     );
   }
